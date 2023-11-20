@@ -7,6 +7,7 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { AngularDefComponent } from './components/angular-def/angular-def.component';
 import { NavPillsComponent } from './components/nav-pills/nav-pills.component';
 import { HomeComponent } from './components/home/home.component';
+import { PuntosComponent } from './components/puntos/puntos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './components/home/home.component';
     ToolbarComponent,
     AngularDefComponent,
     NavPillsComponent,
-    HomeComponent
+    HomeComponent,
+    PuntosComponent
   ],
   imports: [
     BrowserModule,
