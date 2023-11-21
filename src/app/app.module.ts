@@ -8,6 +8,7 @@ import { AngularDefComponent } from './components/angular-def/angular-def.compon
 import { NavPillsComponent } from './components/nav-pills/nav-pills.component';
 import { HomeComponent } from './components/home/home.component';
 import { PuntosComponent } from './components/puntos/puntos.component';
+import { DeleteAlertComponent } from './components/delete-alert/delete-alert.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PuntosComponent } from './components/puntos/puntos.component';
     AngularDefComponent,
     NavPillsComponent,
     HomeComponent,
-    PuntosComponent
+    PuntosComponent,
+    DeleteAlertComponent
   ],
   imports: [
     BrowserModule,

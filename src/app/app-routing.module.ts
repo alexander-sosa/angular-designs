@@ -5,13 +5,15 @@ import { AngularDefComponent } from './components/angular-def/angular-def.compon
 import { NavPillsComponent } from './components/nav-pills/nav-pills.component';
 import { HomeComponent } from './components/home/home.component';
 import { PuntosComponent } from './components/puntos/puntos.component';
+import { DeleteAlertComponent } from './components/delete-alert/delete-alert.component';
 
 const routes: Routes = [
   {path: "", component: AngularDefComponent},
   {path: "toolbar", component: ToolbarComponent},
   {path: "nav-pills",  component: NavPillsComponent},
   {path: "home", component: HomeComponent},
-  {path: "puntos", component: PuntosComponent}
+  {path: "puntos", component: PuntosComponent},
+  {path: "delete-alert", component: DeleteAlertComponent}
 ];
 
 @NgModule({
