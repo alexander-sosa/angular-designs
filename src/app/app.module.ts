@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatDialogModule } from '@angular/material/dialog'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,9 @@ import { NavPillsComponent } from './components/nav-pills/nav-pills.component';
 import { HomeComponent } from './components/home/home.component';
 import { PuntosComponent } from './components/puntos/puntos.component';
 import { DeleteAlertComponent } from './components/delete-alert/delete-alert.component';
+import { InvokerComponent } from './components/popup/invoker/invoker.component';
+import { PopupComponent } from './components/popup/popup/popup.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,11 +22,15 @@ import { DeleteAlertComponent } from './components/delete-alert/delete-alert.com
     NavPillsComponent,
     HomeComponent,
     PuntosComponent,
-    DeleteAlertComponent
+    DeleteAlertComponent,
+    InvokerComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

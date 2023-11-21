@@ -6,6 +6,7 @@ import { NavPillsComponent } from './components/nav-pills/nav-pills.component';
 import { HomeComponent } from './components/home/home.component';
 import { PuntosComponent } from './components/puntos/puntos.component';
 import { DeleteAlertComponent } from './components/delete-alert/delete-alert.component';
+import { InvokerComponent } from './components/popup/invoker/invoker.component';
 
 const routes: Routes = [
   {path: "", component: AngularDefComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path: "nav-pills",  component: NavPillsComponent},
   {path: "home", component: HomeComponent},
   {path: "puntos", component: PuntosComponent},
-  {path: "delete-alert", component: DeleteAlertComponent}
+  {path: "delete-alert", component: DeleteAlertComponent},
+  {path: "popup-invoker", component: InvokerComponent}
 ];
 
 @NgModule({
